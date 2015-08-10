@@ -3,7 +3,8 @@
 Plugin Name: PP-ReportPost
 Plugin URI: http://coderspress.com
 Description: This plugin attach form (jQuery / Ajax) to your contents that can be Invoked by any end-user to make a report on posts / pages. This plugin gives you much flexibility as what to report and archive old reports... No coding skills needed, simply install and activate.
-Version: 2015.0810
+Version: 2015.0811
+Updated: 11th August 2015
 Author: sMarty
 Author URI: http://coderspress.com
 WP_Requires: 3.8.1
@@ -227,6 +228,14 @@ function wprp($echo = false) // MANUAL ADD CALL
 		
 	return $text;
 }
+
+function shorttag_func( $echo = true ) {
+		if($echo)
+		echo $text;
+		
+	return $text;
+}
+add_shortcode( 'report', 'shorttag_func' );
 
 function wprp_report_form($text)
 {
