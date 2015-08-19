@@ -3,12 +3,12 @@
 Plugin Name: PP-ReportPost
 Plugin URI: http://coderspress.com
 Description: This plugin will attach a form (jQuery / Ajax) just under your Listings Description that can be Invoked by a guest or registered user to make a report on posts / pages. If needed use shortcode [report]
-Version: 2015.0814
-Updated: 14th August 2015
+Version: 2015.0819
+Updated: 19th August 2015
 Author: sMarty
 Author URI: http://coderspress.com
 WP_Requires: 3.8.1
-WP_Compatible: 4.2.4
+WP_Compatible: 4.3
 License: http://creativecommons.org/licenses/GPL/2.0
 */
 
